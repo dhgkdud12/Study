@@ -1,0 +1,27 @@
+
+Z
+java:S1854;"8Remove this useless assignment to local variable "trs6".(¡”Ò½øÿÿÿÿ8£®òó¯1
+Z
+java:S18546"8Remove this useless assignment to local variable "trs5".(òş®áúÿÿÿÿ8£®òó¯1
+Z
+java:S1854/"8Remove this useless assignment to local variable "trs4".(ş•Áïşÿÿÿÿ8¤®òó¯1
+U
+java:S1854'"8Remove this useless assignment to local variable "trs3".(³È 8¤®òó¯1
+Z
+java:S1854 "8Remove this useless assignment to local variable "trs2".(¥È—åúÿÿÿÿ8¤®òó¯1
+Z
+java:S1854"8Remove this useless assignment to local variable "trs1".(‘õ‹šÿÿÿÿÿ8¤®òó¯1
+K
+java:S1481")Remove this unused "trs1" local variable.(‘õ‹šÿÿÿÿÿ8©®òó¯1
+K
+java:S1481 ")Remove this unused "trs2" local variable.(¥È—åúÿÿÿÿ8ª®òó¯1
+F
+java:S1481'")Remove this unused "trs3" local variable.(³È 8«®òó¯1
+K
+java:S1481/")Remove this unused "trs4" local variable.(ş•Áïşÿÿÿÿ8¬®òó¯1
+K
+java:S14816")Remove this unused "trs5" local variable.(òş®áúÿÿÿÿ8­®òó¯1
+K
+java:S1481;")Remove this unused "trs6" local variable.(¡”Ò½øÿÿÿÿ8®®òó¯1
+L	java:S106E"+Replace this use of System.out by a logger.(¿î–Óüÿÿÿÿ8®®òó¯1
+L	java:S106M"+Replace this use of System.out by a logger.(ñÙğœøÿÿÿÿ8¯®òó¯1
