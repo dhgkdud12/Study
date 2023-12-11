@@ -2,7 +2,7 @@ package com.example.study.lambda.ex2;
 
 import java.util.Arrays;
 
-public class lambda {
+public class Lambda {
     public static void main(String[] args) {
 
         // 예제 1

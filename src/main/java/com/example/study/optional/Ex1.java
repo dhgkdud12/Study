@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class ex1 {
+public class Ex1 {
     public static void main(String[] args) {
 
         List<SchoolClass> programmingClass = new ArrayList<>();
@@ -40,7 +40,7 @@ public class ex1 {
         System.out.println(schoolClass1.getSubject());
 
         SchoolClass schoolClass2 = optional.orElseGet(() -> createNewClass());
-        SchoolClass schoolClass3 = optional.orElseGet(ex1::createNewClass); // method reference
+        SchoolClass schoolClass3 = optional.orElseGet(Ex1::createNewClass); // method reference
 
         SchoolClass schoolClass4 = optional.orElseThrow(() -> {
             return new IllegalArgumentException();

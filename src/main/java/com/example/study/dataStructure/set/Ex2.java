@@ -1,4 +1,4 @@
-package com.example.study.map;
+package com.example.study.dataStructure.set;
 
 import java.util.Comparator;
 import java.util.SortedSet;

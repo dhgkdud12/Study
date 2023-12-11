@@ -2,7 +2,7 @@ package com.example.study.builder;
 
 class Student {
     private int id;
-    private String name = "아무개";
+    private String name = "아무개"; // 디폴트 매개변수 역할
     private String grade = "freshman";
     private String phoneNumber = "010-0000-0000";
 

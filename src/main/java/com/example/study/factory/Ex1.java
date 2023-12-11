@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class ex1 {
+public class Ex1 {
     public static void main(String[] args) {
 
         // List

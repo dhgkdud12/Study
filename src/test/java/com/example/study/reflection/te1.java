@@ -2,6 +2,7 @@ package com.example.study.reflection;
 
 import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Modifier;
@@ -10,6 +11,7 @@ public class te1 {
 
     // 클래스 정보
     @Test
+    @DisplayName("클래스 정보")
     public void getClassInfo() throws ClassNotFoundException {
         Class aanimalClass = Animal.class;
         Assertions.assertEquals("Animal", aanimalClass.getSimpleName());
@@ -28,6 +30,7 @@ public class te1 {
 
     // 클래스 이름
     @Test
+    @DisplayName("클래스 이름")
     public void getClassName() {
         Object dog = new Dog("Happy");
         Class<?> clazz = dog.getClass();
@@ -41,6 +44,7 @@ public class te1 {
 
     // 클래스의 접근제어 정보
     @Test
+    @DisplayName("클래스 접근제어 정보")
     public void getAccessModifier() {
         
         Class animalClass = Animal.class;
@@ -63,15 +67,17 @@ public class te1 {
 
     // 클래스의 패키지 정보
     @Test
+    @DisplayName("클래스 패키지 정보")
     public void getPakageInfo() {
         Class dogClass = Dog.class;
         Package pkg = dogClass.getPackage();
 
-        Assertions.assertEquals("com.example.study", pkg.getName());
+        Assertions.assertEquals("com.example.study.reflection", pkg.getName());
     }
 
     // 부모 클래스(Supperclass) 정보
     @Test
+    @DisplayName("부모 클래스 정보")
     public void getSuperClass() {
         Dog dog = new Dog("Happy");
         String str = "This is dog";
@@ -85,6 +91,7 @@ public class te1 {
 
     // 인터페이스 구현 정보
     @Test
+    @DisplayName("인터페이스 구현 정보")
     public void getInterface() {
         Class dogClass = Dog.class;
         Class[] dogInterfaces = dogClass.getInterfaces();

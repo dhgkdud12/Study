@@ -1,5 +1,7 @@
 package com.example.study.reflection;
 
+import lombok.AllArgsConstructor;
+
 public class Dog extends Animal implements Movable{
 
     private int age;
