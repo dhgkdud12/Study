@@ -1,4 +1,4 @@
-package com.example.study.stream;
+package com.example.study.stream.ex1;
 
 public class Transaction{
     private final Trader trader;
