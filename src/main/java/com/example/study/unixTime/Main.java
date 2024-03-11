@@ -19,7 +19,7 @@ public class Main {
 
         String requestTime = "2024-03-06 10:26:18";
         long startTimeMillis = 1709478000000L; // 유닉스 타임스탬프 (밀리초 단위)
-        long endTimeMillis   = 1709564399000L;
+        long endTimeMillis   = 1709747400000L;
         String endTime = "2024-03-06T10:15"; // // ISO 8601 형식의 날짜와 시간
 
 
@@ -84,6 +84,9 @@ public class Main {
 
         System.out.println(logMsg2);
 
+        // 3. 2024-03-07T10:15:30.123456789
+        System.out.println(LocalDateTime.now());
 
+        // 2024-03-04T10:00:00
     }
 }
