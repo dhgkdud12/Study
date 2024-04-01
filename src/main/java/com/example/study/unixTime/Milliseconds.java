@@ -17,7 +17,7 @@ public class Milliseconds {
 //        startTimeMillis : 1710059400000 endTimeMillis : 1710059700000
 
 
-        long OriginStartTimeMillis = 1710035700000L;
+        long OriginStartTimeMillis = 1710255600000L;
         long OriginEndTimeMillis   = 1710060300000L;
 
         long startTimeMillis       = 1710059400000L; // 유닉스 타임스탬프 (밀리초 단위)
